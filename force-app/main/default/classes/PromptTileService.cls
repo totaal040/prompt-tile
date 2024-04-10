@@ -1,3 +1,6 @@
+/**
+ * Created by serhii on 13/03/2024.
+ */
 public with sharing class PromptTileService {
 
     public List<SObject> getChildJunctionRecordsByParIdAndRelName (Params params) {
