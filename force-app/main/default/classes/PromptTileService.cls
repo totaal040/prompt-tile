@@ -45,7 +45,7 @@ public with sharing class PromptTileService {
         }
 
         public Boolean isLibraryPill() {
-            return this.parentRelLibApiName != null;
+            return String.isNotBlank(this.parentRelLibApiName);
         }
 
         public String getLibRelationApiName() {

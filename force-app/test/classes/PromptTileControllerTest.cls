@@ -15,7 +15,7 @@ public class PromptTileControllerTest {
                                 , test_ParentTag__c = parentRec.Id);
         test_ChildSimple__c junctionRec = new test_ChildSimple__c (
                                 Name = 'Child Lastname'
-                                , test_Parent__c = parentRec.Id
+                                , test_Parent__c = parentRec1.Id
                                 , test_Library__c = library.Id);
         insert new List<test_ChildSimple__c>{childRec, junctionRec};
     }

@@ -68,7 +68,7 @@ export default class PlatformEventsConnector extends LightningElement {
         console.debug('... emp-api: result on publish platform event: ', result);
     }
 
-    connectedCallback() {     
+    connectedCallback() {
         isEmpEnabled().then(response => {
             console.debug('... emp-api: isEmpEnabled', JSON.stringify(response));
             if (response) {
