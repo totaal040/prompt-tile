@@ -45,7 +45,6 @@ $RECYCLE.BIN/
 **/venv/
 
 # ignores
-.forceignore
 .prettierignore
 .prettierrc
 

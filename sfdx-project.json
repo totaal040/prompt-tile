@@ -2,11 +2,19 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "PromptTile",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "A LWC to easily create/delete related records within a record context"
     }
   ],
   "name": "PromptTile",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "60.0"
+  "sourceApiVersion": "60.0",
+  "packageAliases": {
+    "PromptTile": "0Ho1v000000PAz4CAG",
+    "PromptTile@0.1.0-2": "04t1v000002SojBAAS"
+  }
 }
