@@ -7,7 +7,5 @@ public class UtilityTest {
         Test.stopTest();
 
         Assert.isNotNull(eventId, 'it should fire a Generic event');
-
-        // ch 1
     }
 }
