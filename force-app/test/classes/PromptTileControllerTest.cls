@@ -1,6 +1,6 @@
 @isTest
 public class PromptTileControllerTest {
-    private static final String PAR_NAME = 'Parent Name';
+    private static final String PAR_NAME = 'Parent Name'; // ch 3
     private static final String PAR_NAME1 = 'Parent Name1';
     private static final String LIB_NAME = 'Library Name';
     @TestSetup
